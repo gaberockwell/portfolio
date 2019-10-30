@@ -1,0 +1,123 @@
+﻿  	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="veiwport" content="width-device-width, initial-scale=1.0">
+ 		<meta http-equiv="X-UA-compatible" content="ie=edge">
+ 		<meta name="description" content="This website is showcasing my Portfolio and my skills in Website development and  Website Design.">
+		<meta name="keywords" content="Website developer, Portfolio, Rockwell, Website development, Html, Css, JavaScript, Website design, Gabriel Rockwell, Jr. Web developer Portfolios">
+		<meta name="author" content="Gabriel Rockwell">
+		<title>Gabriel Rockwell-Home</title>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<link rel="icon" type="image/png" href="images/Rockwell.png">
+		<link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	</head> 
+
+<body>		
+	<div id="nav">
+		<h1 id="hello"><a href="index.html">Gabriel Rockwell</a></h1>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="abouts.html">About</a></li>
+			<li><a href="Portfolio.html">Portfolio</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+		
+	</div>
+	<div id="hello1">
+
+
+	</div>
+	<div id="intro" class="slide">
+		<h1> Hello, Im Gabriel Rockwell</h1>
+	</div>
+	<div id="slide1" class="slide">
+		<h1> I am a Web developer, Proficient in multiple languages.</h1>
+	</div>
+	<div id="slide2" class="slide">
+		<h1> Fast load times and lag free user interaction, Is my highest priority.</h1> 
+	</div>
+	<div id="slide3" class="slide">
+		<h1>.Interested in collaborating? Contact me and we will make it happen!</h1>
+	</div>
+
+
+<footer>
+	<div id="footernav">
+		<h1 id="hello"><a href="index.html">Gabriel Rockwell</a></h1>
+		<h2 id="hello9">ROCKWELL Web. Development</h2>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="abouts.html">About</a></li>
+			<li><a href="Portfolio.html">Portfolio</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+		
+	</div>
+</footer>
+	
+
+
+</body>
+</html>
+<style type="text/css">
+@import url('https://fonts.googleapis.com/css?family=Exo');
+html {
+	height:100%;
+	overflow: hidden;
+}
+body{ 
+	margin: 0;
+	padding: 0;
+	perspective: 1px;
+	transform-style: preserve-3d;
+	height: 100%; 
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+h1{
+	font-family: 'Exo', sans-serif;
+	font-size: 230%;
+	text-align: center;
+	color: white;
+	text-shadow: 3px 3px #666;
+}
+.slide {
+	position: relative;
+	padding: 25% 10%;
+	min-height: 100%;
+	width: 100%;
+	box-sizing: border-box;
+	box-shadow: 0 -1px 10px rgba(0, 0, 0, .7);
+	transform-style: inherit;
+}
+.slide:before {
+	content:"";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	box-shadow: 0 0 8px 1px rgba(0, 0, 0, .7);
+}
+.slide, .slide:before {
+	background: 50% 50%;
+
+}
+#intro {
+	background-image: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/BSxsT2ETgj17i4701/videoblocks-orange-green-technology-background-orange-green-technology-background-circuit-board-and-code_bpjuct4pe_thumbnail-full14.png);
+	z-index: 2;
+}
+#slide1:before {
+	background-image: url(images/st.jpg);
+	transform: translateZ(-1px) scale(2);
+}
+#slide2 {
+	background-image: url(https://jooinn.com/images/circuit-board-close-up-3.jpg);
+}
+#slide3 {
+	background-image: url(https://images.pond5.com/technology-background-orange-green-pcb-footage-069779461_prevstill.jpeg);
+}
+</style>
